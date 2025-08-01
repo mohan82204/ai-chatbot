@@ -97,7 +97,7 @@ function App() {
   const [suggestedPrompts] = useState(() => getRandomPrompts(allPrompts, 4))
 
   // Google Gemini API Key
-  const API_KEY = 'AIzaSyAzsAd_MVJW8MX0xM3jXEfOanh6qffSMII'
+  const API_KEY = ' '
   const API_URL = 'https://generativelanguage.googleapis.com/v1/models/gemini-1.5-flash:generateContent'
 
   const scrollToBottom = () => {
